@@ -1,4 +1,4 @@
-# Local AI & Dev Archive
+# j-okerorhero — Local AI & Dev Archive
 
 **Path:** `~/llm-models` (~40 GB)
 
