@@ -1,0 +1,35 @@
+{
+  "location": "/home/cody/llm-models",
+  "updated": "2026-06-29",
+  "bootable_models": [
+    {
+      "id": "deepseek-r1-7b",
+      "name": "DeepSeek R1 Distill 7B",
+      "gguf": "models/deepseek-r1-7b/gguf/DeepSeek-R1-Distill-Qwen-7B-Q4_K_M.gguf",
+      "gguf_gb": 4.4,
+      "vram_gb": 5,
+      "boot_ollama": "models/deepseek-r1-7b/boot/launch-ollama.sh",
+      "boot_llamacpp": "models/deepseek-r1-7b/boot/launch-llamacpp.sh"
+    },
+    {
+      "id": "qwen3-8b",
+      "name": "Qwen3 8B",
+      "gguf": "models/qwen3-8b/gguf/Qwen3-8B-Q4_K_M.gguf",
+      "gguf_gb": 4.7,
+      "vram_gb": 5,
+      "boot_ollama": "models/qwen3-8b/boot/launch-ollama.sh",
+      "boot_llamacpp": "models/qwen3-8b/boot/launch-llamacpp.sh"
+    }
+  ],
+  "dev_repos": [
+    "cline", "ollama", "llama-cpp", "vllm", "transformers", "open-webui",
+    "dify", "langchain", "llama-factory", "unsloth", "continue", "openhands",
+    "opencode", "aider", "autogen", "crewai", "open-interpreter", "llama-index",
+    "sglang", "text-gen-webui", "comfyui"
+  ],
+  "docs": {
+    "manpages": "manpages/debian/",
+    "void_linux": "void-linux/"
+  },
+  "omitted": "Frontier MoE models (V4 Pro, Kimi K2.6, GLM-5.1, Qwen3-32B) — incomplete or 50+ GB each"
+}

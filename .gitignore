@@ -1,0 +1,23 @@
+# === Only track boot scripts & metadata. Everything else stays local. ===
+
+# Entire downloaded trees (re-clone locally)
+dev-repos/
+!dev-repos/**/LOCAL-USE.md
+manpages/
+void-linux/
+models/*/gguf/
+models/*/huggingface/
+models/*/source/
+_archive/
+
+# Large binaries
+*.gguf
+*.safetensors
+*.bin
+*.pt
+*.pth
+*.deb
+*.tar.*
+*.zip
+*.part
+*.log
